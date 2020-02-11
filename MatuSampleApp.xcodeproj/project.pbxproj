@@ -14,6 +14,7 @@
 		34DC3E2923F2156C00A01F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DC3E2723F2156C00A01F17 /* LaunchScreen.storyboard */; };
 		34DC3E3423F2156C00A01F17 /* MatuSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DC3E3323F2156C00A01F17 /* MatuSampleAppTests.swift */; };
 		34DC3E3F23F2156C00A01F17 /* MatuSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DC3E3E23F2156C00A01F17 /* MatuSampleAppUITests.swift */; };
+		34DC3E4D23F365DB00A01F17 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DC3E4C23F365DB00A01F17 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		34DC3E3A23F2156C00A01F17 /* MatuSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatuSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DC3E3E23F2156C00A01F17 /* MatuSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatuSampleAppUITests.swift; sourceTree = "<group>"; };
 		34DC3E4023F2156C00A01F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DC3E4C23F365DB00A01F17 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				34DC3E2523F2156C00A01F17 /* Assets.xcassets */,
 				34DC3E2723F2156C00A01F17 /* LaunchScreen.storyboard */,
 				34DC3E2A23F2156C00A01F17 /* Info.plist */,
+				34DC3E4C23F365DB00A01F17 /* NewViewController.swift */,
 			);
 			path = MatuSampleApp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34DC3E4D23F365DB00A01F17 /* NewViewController.swift in Sources */,
 				34DC3E2123F2156A00A01F17 /* ViewController.swift in Sources */,
 				34DC3E1F23F2156A00A01F17 /* AppDelegate.swift in Sources */,
 			);
